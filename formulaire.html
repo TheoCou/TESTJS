@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" type="image/png" sizes="40x40" href="https://cdn-icons-png.flaticon.com/512/193/193929.png">
+</head>
+
+<body>
+    <main>
+        <header>
+            <p>Veuillez vous connecter &#128527;</p>
+        </header>
+        <form action="/ma-page-de-traitement" method="post">
+
+            <label for="login">
+                <strong>Login:</strong>
+            </label>
+            <input type="text" id="login" name="login">
+
+            <label for="pass"><strong>Password:</strong></label>
+            <input type="password" id="pass" name="pass">
+
+            <button id="btn" type="button"><strong>Valider</strong></button>
+
+        </form>
+        <script src="./class.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+    font-family: 'Varela Round', sans-serif;
+}
+
+form {
+
+    margin: 0 auto;
+    width: 20%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 10%;
+    padding-right: 16%;
+    border: 2px solid;
+    border-radius: 1rem;
+    color: #AF7737;
+
+}
+
+label {
+
+    display: inline-block;
+    width: 35%;
+    text-align: center;
+    color: #AF7737;
+    vertical-align: 15%;
+}
+
+button {
+    margin-left: 51%;
+    margin-top: 4%;
+    color: #AF7737;
+}
+
+header {
+    font-size: 20px;
+    margin-left: 45%;
+    margin-right: 39%;
+    background-color: #AF7737;
+}
